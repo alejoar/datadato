@@ -24,6 +24,9 @@ img {
   padding: 2px;
   border: 10px solid;
 }
+aside {
+  background-image: url(/theme/images/light_wool.png);
+}
 aside div#user_meta {
   padding: 40px;
   text-align: center;
@@ -135,7 +138,6 @@ main div#ending_message {
 }
 @media screen and (min-width: 1024px) {
   aside {
-    background-image: url(/theme/images/light_wool.png);
     width: 25%;
     height: 100%;
     position: fixed;
@@ -147,8 +149,8 @@ main div#ending_message {
     margin: 10px 0 0 0;
   }
   aside div#user_meta {
-    max-width: 192px;
-    text-align: right;
+    /* max-width: 192px; */
+    /* text-align: right; */
   }
   aside div#user_meta ul li {
     display: block;
