@@ -72,6 +72,7 @@ main article {
 }
 main article div.article_text {
   line-height: 1.375em;
+  text-align: justify;
 }
 main article div.article_text a {
   text-decoration: underline;
